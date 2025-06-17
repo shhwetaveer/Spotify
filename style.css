@@ -1,0 +1,31 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;;
+}
+
+nav{
+ background-color: black;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 60px;
+    color: white;
+    align-items: center;;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight: 1.3rem;
+}
